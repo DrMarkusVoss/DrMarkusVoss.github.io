@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Impress
-permalink: /about/
+permalink: /impress/
 ---
 
 Dies ist ein rein privater Blog von:
