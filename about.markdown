@@ -9,7 +9,7 @@ permalink: /about/
 
 Systems Architect, Software Architect, Software Developer, Guitar Nerd.
 
-### Vita
+### Vitae
 
 - started programming with BASIC at about age of 9 on my first computer, a Commodore C16 
 - learned Assembler on Commodore C64 at age of 13, started to combine Assembler and BASIC programs
