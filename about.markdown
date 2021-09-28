@@ -17,9 +17,11 @@ Systems Architect, Software Architect, Software Developer, Guitar Nerd.
   my Assembler/BASIC programs and tried to avoid time-consuming memory-copy-actions when the need for
   extension occurred
 - studied computer science at RWTH Aachen University, finished with diploma ("Dipl.-Inform.")
-- did my PhD ("Dr.-Ing.") at RWTH Aachen University in engineering, working on control systems for machine tools
+- did my PhD ("Dr.-Ing.") and worked as research assistant at WZL (Laboratory for Machine Tools and
+  Production Engineering) at RWTH Aachen University in engineering, working on control systems for machine tools
   and production systems
-- joined BOSCH in 2008 as Systems & Software Architect for the development of advanced driver assistance and automated driving systems (ADAS)
+- joined BOSCH in 2008 as Systems & Software Architect for the development of advanced driver assistance
+  and automated driving systems (ADAS)
 
 
 ### Spare-time Programming projects
