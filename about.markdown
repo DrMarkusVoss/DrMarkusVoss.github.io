@@ -30,7 +30,7 @@ Check out my projects on GitHub:
 
 [https://github.com/DrMarkusVoss](https://github.com/DrMarkusVoss)
 
-### Spare-time Music projects:
+### Spare-time Music projects
 
 Some music I composed and/or recorded with videos on YouTube:
 
