@@ -5,6 +5,8 @@ permalink: /about/
 ---
 
 ## Dr. Markus Voss
+<img style="float: right;" src="/assets/images/moi_logo_1.png">
+
 Systems Architect, Software Architect, Software Developer, Guitar Nerd.
 
 Check out my projects on GitHub:
