@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "First real post of the new blog, done with Jekyll"
-date:   2021-09-27 22:05:55 +0200
-categories: software installation
+date:   2021-09-04 22:05:55 +0200
+categories: software
 ---
 I installed Jekyll on github.io following this YouTube tutorial (in german):
 - Blog erstellen in unter 10 Minuten:
