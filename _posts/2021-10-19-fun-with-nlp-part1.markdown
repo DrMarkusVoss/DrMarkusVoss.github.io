@@ -177,7 +177,7 @@ above. But you also already see quite some challenges:
     statements, like e.g. "A dog is an animal.". But how do you deal with a statement like "Stella is the small,
     brown dog under the table."?
   - What is the "language" or meta model of the knowledge database? What semantics does it have? In my simple example I use so far
-    bits of UML (Unified Modelling Language) language.
+    bits of UML (Unified Modelling Language).
   - Should "information doubling" be avoided or appreciated? In the current example, a statement from one sentence
     gets encoded into the database often 2 times. Partly it cannot be avoided, partly it can. Should it? Currently I
     prefer the approach to double information in the knowledge base, in order to have a clearer "object" related
