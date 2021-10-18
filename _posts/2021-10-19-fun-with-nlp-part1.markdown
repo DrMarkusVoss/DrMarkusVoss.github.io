@@ -48,9 +48,7 @@ Even to this seemingly simple sentences, there are quite some challenges:
 - verb phrases can have further words for decoration
 
 In this first example, I try to gather information from the following sentences, overcoming
-the challenges I mentioned above.
-
-These are the sentences I try to process and gather knowledge from:
+the challenges I mentioned above:
 
 ```Python
 sentences = [
