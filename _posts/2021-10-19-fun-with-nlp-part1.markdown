@@ -44,6 +44,7 @@ I start easy by trying to gather knowledge from real simple sentences (that I ca
 Even to this seemingly simple sentences, there are quite some challenges:
 - subject and objects can have definite and indefinite articles in front
 - there can be count words before subjects and objects
+- count words can be numbers/digits or words
 - subjects and objects can be in singular or plural
 - different verbs can express the same or similar semantic meaning
 - verb phrases can have further words for decoration

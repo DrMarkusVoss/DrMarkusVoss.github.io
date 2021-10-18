@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Announcing pumla"
+title:  "pumla: re-usable models as code"
 date:   2021-09-05 22:05:55 +0200
 categories: pumla
 ---
