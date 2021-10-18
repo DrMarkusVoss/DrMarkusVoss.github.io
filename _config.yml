@@ -35,7 +35,6 @@ github_username:  DrMarkusVoss
 # Build settings
 theme: minima
 
-
 plugins:
   - jekyll-feed
 
