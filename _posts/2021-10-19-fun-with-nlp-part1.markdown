@@ -3,6 +3,7 @@ layout: post
 title:  "Fun with Natural Language Processing (NLP) - Part 1"
 date:   2021-10-19 07:45:54 +0200
 categories: nlp
+published: false
 ---
 
 When Apple introduced Siri about 10 years ago I was excited to be able to talk in natural language with a
