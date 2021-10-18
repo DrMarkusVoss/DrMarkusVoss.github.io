@@ -12,7 +12,7 @@ it would search database XY and come up with the answer a few seconds and crypti
 later. Now if I look at Siri and its competitors ten years later, then I am a little disappointed on the progress that
 its „intelligence“ has made. A current TV ad praises a new feature, that you can ask the „virtual intelligence“ Alexa
 what sound a certain animal makes, and then Alexa produces the animals sound (works also on Siri btw). But if you look
-at that feature, and try out its capabilities by experiment (my kids did extensive research on that :wink:), it seems like
+at that feature, and try out its capabilities by experiment (my kids did extensive research on that), it seems like
 this feature is implemented pretty straight forward, without much kind of „intelligence“ on the way (only for 
 recognizing the spoken human language).
 
