@@ -77,7 +77,13 @@ sentences = [
   "A human head has two eyes.",
   "Human heads have two ears.",
   "The car has a manual transmission.",
-  "The dog is characterized by an upturning tail."
+  "The dog is characterized by an upturning tail.",
+  "Arms are extremities.",
+  "Legs are extremities.",
+  "Persons are humans.",
+  "A human is a lifeform.",
+  "A man is a person.",
+  "A woman is a person."
 ]
 ```
 
@@ -85,35 +91,39 @@ sentences = [
 And this is the resulting knowledge database I get with my Python code, as a Python dictionary:
 ```Python
 {'things': {
-'car': {'aggregates': [[4, 'wheel'], 'steering', 'transmission'], 'specializes': ['vehicle']},
-'wheel': {'is part of': ['car']},
-'steering': {'is part of': ['car']},
-'animal': {'generalizes': ['dog', 'horse']},
-'dog': {'specializes': ['animal', 'pet'], 'aggregates': ['tail']},
-'pet': {'generalizes': ['dog']},
-'horse': {'specializes': ['animal']},
-'vehicle': {'generalizes': ['car', 'truck', 'bicycle']},
-'truck': {'specializes': ['vehicle']},
-'bicycle': {'specializes': ['vehicle']},
-'plane': {'generalizes': ['Cessna']},
-'Cessna': {'specializes': ['plane']},
-'duo': {'aggregates': [[2, 'person']]},
-'person': {'is part of': ['duo', 'trio']},
-'trio': {'aggregates': [[3, 'person']]},
-'bread': {'aggregates': ['wheat flour', 'salt']},
-'wheat flour': {'is part of': ['bread']},
-'salt': {'is part of': ['bread']},
-'human': {'aggregates': ['water', 'blood', 'head', [2, 'leg'], [2, 'arm']]},
-'water': {'is part of': ['human']},
-'blood': {'is part of': ['human']},
-'head': {'is part of': ['human'], 'aggregates': [[2, 'eye']]},
-'leg': {'is part of': ['human']},
-'arm': {'is part of': ['human']},
-'eye': {'is part of': ['head']},
-'Human head': {'aggregates': [[2, 'ear']]},
-'ear': {'is part of': ['Human head']},
-'transmission': {'is part of': ['car']},
-'tail': {'is part of': ['dog']}
+  'car': {'aggregates': [[4, 'wheel'], 'steering', 'transmission'], 'specializes': ['vehicle']},
+  'wheel': {'is part of': ['car']},
+  'steering': {'is part of': ['car']},
+  'animal': {'generalizes': ['dog', 'horse']}, 
+  'dog': {'specializes': ['animal', 'pet'], 'aggregates': ['tail']},
+  'pet': {'generalizes': ['dog']},
+  'horse': {'specializes': ['animal']},
+  'vehicle': {'generalizes': ['car', 'truck', 'bicycle']},
+  'truck': {'specializes': ['vehicle']},
+  'bicycle': {'specializes': ['vehicle']},
+  'plane': {'generalizes': ['Cessna']},
+  'Cessna': {'specializes': ['plane']},
+  'duo': {'aggregates': [[2, 'person']]},
+  'person': {'is part of': ['duo', 'trio'], 'specializes': ['human'], 'generalizes': ['man', 'woman']},
+  'trio': {'aggregates': [[3, 'person']]},
+  'bread': {'aggregates': ['wheat flour', 'salt']},
+  'wheat flour': {'is part of': ['bread']},
+  'salt': {'is part of': ['bread']},
+  'human': {'aggregates': ['water', 'blood', 'head', [2, 'leg'], [2, 'arm']], 'generalizes': ['person'], 'specializes': ['lifeform']},
+  'water': {'is part of': ['human']},
+  'blood': {'is part of': ['human']},
+  'head': {'is part of': ['human'], 'aggregates': [[2, 'eye']]},
+  'leg': {'is part of': ['human'], 'specializes': ['extremity']},
+  'arm': {'is part of': ['human'], 'specializes': ['extremity']},
+  'eye': {'is part of': ['head']},
+  'Human head': {'aggregates': [[2, 'ear']]},
+  'ear': {'is part of': ['Human head']},
+  'transmission': {'is part of': ['car']},
+  'tail': {'is part of': ['dog']},
+  'extremity': {'generalizes': ['arm', 'leg']},
+  'lifeform': {'generalizes': ['human']},
+  'man': {'specializes': ['person']},
+  'woman': {'specializes': ['person']}
 }}
 ```
 
@@ -186,6 +196,16 @@ above. But you also already see quite some challenges:
   - What would be a good implementation technology for a continuous growing knowledge base? A classical relational
     database? A file-based approach? Use GUIDs, hash tables? Keeping everything in RAM and in between doing a 
     serialization of the data structure to a file would most likely be not sufficient, I guess?
+
+It would be interesting now to ask the question...
+```
+How many extremities does a woman have?
+```
+... and get the answer out of the knowledge base. It is in there:
+```
+woman->person; person->human;human-*(2, leg); human-*(2, arm); leg->extremity; arm->extremity;
+```
+So you could resolve or reason with some "intelligence", that a woman has 4 extremities.
 
 Stay tuned for further investigations...
 
