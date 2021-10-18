@@ -205,7 +205,7 @@ How many extremities does a woman have?
 ```
 woman->person; person->human;human-*(2, leg); human-*(2, arm); leg->extremity; arm->extremity;
 ```
-So you could resolve or reason with some "intelligence", that a woman has 4 extremities.
+So you could resolve or reason with some "intelligence" that a woman has 4 extremities.
 
 Stay tuned for further investigations...
 
