@@ -45,7 +45,7 @@ Even to this seemingly simple sentences, there are quite some challenges:
 - there can be count words before subjects and objects
 - subjects and objects can be in singular or plural
 - different verbs can express the same or similar semantic meaning
-- verb phrases can have further words for decoration (I am not going to explain english grammar from scratch)
+- verb phrases can have further words for decoration
 
 In this first example, I try to gather information from the following sentences, overcoming
 the challenges I mentioned above.
