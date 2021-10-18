@@ -143,8 +143,7 @@ above. But you also already see quite some challenges:
   difficult. You have to go beyond regular expressions.
 - The more complex the grammars get, the more **ambiguity** they may or do contain (trying to cover human language). So
   you won't get one result, but more than one possible interpretation of the role of each word in the
-  sentence. See the following chapter 8.1 of an NLTK book for details: 
-
+  sentence. See the following chapter 8.1 of an NLTK book for details:
   [NLTK book chapter 8](https://www.nltk.org/book/ch08.html)
 
 - **Not only sentences can be ambiguous, but also words can be.** E.g. a word like "manual" can be an adjective to a noun,
