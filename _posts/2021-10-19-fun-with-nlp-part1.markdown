@@ -166,8 +166,8 @@ above. But you also already see quite some challenges:
 - Filling the knowledge base: In this example, the results of the parser are handled by my Python code
   and another classification step is done in Python. Depending on that the results are inserted into
   the knowledge base. It would be possible to also let that classification step be handled by the grammar and parser,
-  in a way that all "logic" is captured by that grammar. See here an example for that: ...nltk chapter 10.
-  Both approaches have advantages and disadvantages. This will be discussed in combination with 
+  in a way that all "logic" is captured by that grammar. See here an example for that:
+  [NLTK book chapter 10](https://www.nltk.org/book/ch10.html). Both approaches have advantages and disadvantages. This will be discussed in combination with 
   the next point in future again.
 - What could you learn from a sentence like "A dog strays down the street slowly."? It could be a sentence as an 
   introduction of a journalistic article about e.g. slums. Would you learn that "dogs stray"? Or just ignore it 
