@@ -6,6 +6,11 @@ permalink: /about/
 
 <img style="float: center;" src="/assets/images/about_banner.png">
 
+<script type = "text/javascript">  
+window.onload = function myfunction() {   
+alert("how are you");  
+         }  
+</script>  
 
 Systems Architect, Software Architect, Software Developer, Guitar Nerd.
 
