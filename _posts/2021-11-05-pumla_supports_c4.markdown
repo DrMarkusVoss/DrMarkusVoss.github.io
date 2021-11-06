@@ -11,7 +11,7 @@ I just released the second major beta version of my spare-time project [**pumla*
 [https://github.com/DrMarkusVoss/pumla/releases/tag/v0.9.0](https://github.com/DrMarkusVoss/pumla/releases/tag/v0.9.0)
 
 [**pumla**](https://github.com/DrMarkusVoss/pumla) transforms and extends the *diagrams-as-code* approach
-of [PlantUML](https://plantuml.com/de/) and enables a *model-as-code*
+of [PlantUML](https://plantuml.com/de/) and enables a *models-as-code*
 approach that allows re-use of once modelled aspects in several diagrams.
 
 With **pumla v0.9.0** the following new features got implemented compared to 
