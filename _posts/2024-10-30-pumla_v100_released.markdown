@@ -10,7 +10,7 @@ Yesterday I came to the conclusion that pumla, my spare time project that enable
 the indended use cases. Furthermore, also no bugs have been found for quite some time. Therefore I released now its
 first "production ready" version:  **pumla**, **Release v1.0.0**:
 
-[https://github.com/DrMarkusVoss/pumla/releases/tag/v1.0.0](https://github.com/DrMarkusVoss/pumla/releases/tag/v1.0.0)
+[https://github.com/DrMarkusVoss/pumla/releases/tag/v1.0.0_fix](https://github.com/DrMarkusVoss/pumla/releases/tag/v1.0.0_fix)
 
 With pumla, it is possible to work with a git-based workflow, model or document architecture with PlantUML and still be
 able to re-use once modelled aspects. The goal is achieved.
