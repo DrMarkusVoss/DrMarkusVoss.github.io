@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Pumla v1.0.0 released!"
+title:  "pumla v1.0.0 released!"
 date:   2024-10-30 06:45:54 +0200
 categories: pumla
 published: true
